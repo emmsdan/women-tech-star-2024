@@ -1,0 +1,97 @@
+body {
+    background-color: #F7F7FE;
+    font-family: 'Lato';
+}
+
+#video-container {
+    position: relative;
+}
+
+.video-player-screen video {
+    border-radius: 15px;
+}
+
+.video-actions {
+    position: absolute;
+    bottom: 2rem;
+    left:40%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.video-actions svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+.video-actions .media-action {
+    border: none;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0,0,0, 0.8);
+}
+.video-actions .end-call {
+    width: fit-content;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.9);
+    text-transform: capitalize;
+    font-family: "Noto Sans Kawi", sans-serif;
+    font-size: 11px;
+    line-height: 13px;
+    padding-top: 5px;
+}
+.video-actions .end-call svg {
+    transform: rotate(134deg);
+}
+
+
+#video-control {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#video-control .control {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+    background-color: #fff;
+    color: #57575c;
+    border-radius: 10px;
+
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#video-control .control svg {
+    width: 40px;
+    height: 20px;
+    /* background-color: #F7F7FE; */
+    background-color: #F7F7FE;
+    fill: #4A5BEE;
+    padding: 15px 4px;
+    border-radius: 10px;;
+}
+
+
+video {
+    width: 100%;
+}
+
+.icon-1 {
+    content: "\26BE";
+    font-size: 40px;
+}
